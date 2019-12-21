@@ -1,0 +1,5 @@
+a=int(input())
+b=input()
+c=b.split()
+c.sort(key=float)
+print(' '.join(c))
